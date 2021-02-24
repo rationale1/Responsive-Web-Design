@@ -10,49 +10,45 @@ body {
   color: #2e354f;
 }
 
-a {
-  color: black;
-}
-
-.button {
-  text-decoration: none;
-  display: inline-block;
-  background-color: #ffe600;
-  color: black;
-  padding: 15px 30px;
-  margin-bottom: 50px;
-}
-
-.button:hover {
-  background-color: orange;
-}
-
-.btn-big {
-  font-size: 1.5rem;
-}
-
-.btn-small {
-  font-size: 0.75rem;
-}
-
-.links {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.card {
-  background-color: black;
-  color: white;
-  padding: 1em;
+.container {
   width: 50%;
   margin: 0 auto;
-  margin-top: 7em;
+  border: 1px solid magenta;
+}
+
+img {
+  width: 100%;
+  height: 150px;
 }
 
 span {
-  color: yellow;
+  color: magenta;
 }
 
-strong {
-  color: red;
+div {
+  border: 2px solid green;
+}
+
+.col,
+.sec-col {
+  display: flex;
+  justify-content: space-around;
+}
+
+.col-1 {
+  flex: 1;
+}
+
+.col-2 {
+  flex: 2;
+}
+.col-3 {
+  flex: 1;
+}
+
+.sec-col-1 {
+  flex: 2;
+}
+.sec-col-2 {
+  flex: 1;
 }
