@@ -16,9 +16,43 @@ a {
 
 .button {
   text-decoration: none;
-  /* display: inline-block; */
+  display: inline-block;
   background-color: #ffe600;
   color: black;
   padding: 15px 30px;
   margin-bottom: 50px;
+}
+
+.button:hover {
+  background-color: orange;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn-small {
+  font-size: 0.75rem;
+}
+
+.links {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.card {
+  background-color: black;
+  color: white;
+  padding: 1em;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 7em;
+}
+
+span {
+  color: yellow;
+}
+
+strong {
+  color: red;
 }
