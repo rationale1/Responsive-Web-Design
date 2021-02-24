@@ -9,7 +9,6 @@ body {
   color: #707070;
 }
 
-/*........Typography..........*/
 h1 {
   font-size: 3rem;
   color: #212614;
@@ -18,7 +17,6 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
-  /* color: #212614; */
 }
 
 img {
@@ -47,13 +45,10 @@ p {
   margin: 0 auto;
 }
 
-div {
-  border: 1px solid red;
-}
-
 .columns {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
+  align-items: flex-start;
   margin: 1em 0;
 }
 
@@ -64,4 +59,14 @@ div {
   padding: 1em;
 }
 
-/* 1:02:59 */
+.col-1 {
+  width: 20%;
+}
+
+.col-2 {
+  width: 50%;
+}
+
+.col-3 {
+  width: 70%;
+}
