@@ -5,9 +5,17 @@
 }
 
 body {
-  font-size: 18px;
+  font-size: 10px;
   font-family: sans-serif;
   color: #2e354f;
+}
+
+.section-one {
+  font-size: 2em;
+}
+
+ul {
+  font-size: 1.5em;
 }
 
 h1,
@@ -76,7 +84,7 @@ section {
   width: 90%;
   max-width: 620px;
   margin: 0 auto;
-  border: 2px solid magenta;
+  /* border: 2px solid magenta; */
 }
 
 .section-two {
