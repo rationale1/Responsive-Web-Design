@@ -29,6 +29,7 @@ body {
   font-size: 18px;
   font-family: sans-serif;
   color: #312614;
+  background-color: pink;
 }
 
 h1 span {
@@ -46,10 +47,10 @@ p {
 }
 
 .columns {
+  margin: 1em 0;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin: 1em 0;
 }
 
 .col-bg {
@@ -69,4 +70,26 @@ p {
 
 .col-3 {
   width: 70%;
+}
+
+span {
+  color: red;
+}
+
+@media (min-width: 400px) {
+  body {
+    background-color: purple;
+  }
+}
+
+@media (max-width: 600px) {
+  .columns {
+    flex-direction: column;
+    margin: 1em 0;
+  }
+  .col-1,
+  .col-2,
+  .col-3 {
+    width: 100%;
+  }
 }
