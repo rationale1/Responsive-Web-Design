@@ -17,6 +17,7 @@ body {
 
 .container-flex {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -24,6 +25,7 @@ header {
   background-color: pink;
   background-color: #f8f8f8;
   padding: 2em 0;
+  text-align: center;
 }
 
 h1 {
@@ -114,25 +116,27 @@ a:focus {
   color: #142774;
 }
 
-main {
-  width: 75%;
+.article-info {
+  margin: 2em 0;
 }
 
-aside {
-  width: 20%;
+/* .................articles.......... */
+.article-featured {
+  border-bottom: 1px solid #707070;
+  padding: 2em;
+  margin: 2em;
 }
 
 /*             .......Media query.......... */
-@media (max-width: 675px) {
-  nav ul,
+@media (min-width: 675px) {
   .container-flex {
-    flex-direction: column;
+    flex-direction: row;
   }
-  header {
-    text-align: center;
+  main {
+    width: 75%;
   }
 
-  nav li {
-    margin: 0.5em 0;
+  aside {
+    width: 20%;
   }
 }
