@@ -4,8 +4,20 @@
   box-sizing: border-box;
 }
 
+.container {
+  /* border: 1px solid magenta; */
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 header {
-  text-align: center;
+  /* text-align: center; */
   background-color: #f8f8f8;
   background-color: pink;
   padding: 2em 0;
@@ -27,10 +39,14 @@ nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
+  align-items: center;
+  align-items: baseline;
 }
 
 nav li {
+  /* margin-left: 2em; */
   margin: 1em;
+  margin-right: 0;
 }
 
 nav a {
