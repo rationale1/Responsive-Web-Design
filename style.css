@@ -74,7 +74,6 @@ nav a:hover {
 
 /*         ........Main Content.......... */
 img {
-  /* width: 150px; */
   max-width: 100%;
   display: block;
 }
@@ -127,6 +126,20 @@ a:focus {
   margin: 2em;
 }
 
+.article-recent {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+}
+
+.article-recent-main {
+  order: 2;
+}
+
+.article-recent-secondary {
+  order: 1;
+}
+
 /*             .......Media query.......... */
 @media (min-width: 675px) {
   .container-flex {
@@ -139,4 +152,16 @@ a:focus {
   aside {
     width: 20%;
   }
+
+  .article-image {
+    width: 100%;
+    min-height: 250px;
+  }
+}
+
+footer {
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+  padding: 3em 0;
 }
